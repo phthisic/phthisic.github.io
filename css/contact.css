@@ -1,0 +1,145 @@
+.contact {
+    background-color: aliceblue;
+    margin-left: 20%;
+    width: 80%;
+}
+
+.contact h2 {
+    background-color: #999999;
+    padding: 30px 50px 30px 50px;
+}
+
+.contact>div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #343434;
+}
+
+#contact-span {
+    background-color: aliceblue;
+}
+
+.contact-method {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-method>div {
+    text-align: center;
+    font-size: 2em;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact {
+    background-color: aliceblue;
+    background-image: url(../image/contact3.jpg);
+    background-repeat: no-repeat;
+    background-size: 95% 98%;
+    background-position: center;
+}
+
+#contact>div:first-child:hover, #socialmedia>div:first-child:hover {
+    transition: text-shadow 0.2s linear;
+    text-shadow: #343434 0.1em 0.1em 0.2em;
+}
+
+#feedback>div:first-child:hover {
+    transition: text-shadow 0.2s linear;
+    text-shadow: aliceblue 0.1em 0.1em 0.2em;
+}
+
+#socialmedia {
+    background-color: #999999;
+}
+
+#contact>div:first-child, #socialmedia>div:first-child, #feedback>div:first-child {
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+#socialmedia-span {
+    background-color: #999999;
+}
+
+#feedback {
+    background-color: #343434;
+    background-image: url(../image/contact2.jpg);
+    background-repeat: no-repeat;
+    background-size: 95% 98%;
+    background-position: center;
+}
+
+#feedback * {
+    color: aliceblue;
+}
+
+#decoration-img {
+    background-color: #343434;
+    background-image: url(../image/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: 95% 98%;
+    background-position: center;
+    width: 25%;
+    opacity: 0.2;
+}
+
+/*box change*/
+
+.hidebox {
+    display: none;
+}
+
+.showbox>div:first-child {
+    transition: height 0.3s linear;
+    height: 20%;
+    margin-bottom: 50px;
+}
+
+.showbox>div:last-child {
+    transition: height 0.3s linear;
+    height: 80%;
+}
+
+.showbox>div:last-child div {
+    cursor: pointer;
+}
+
+.showbox>div:last-child img {
+    width: 10%;
+}
+
+.showbox textarea{
+    margin-top: -50px;
+    height: 500px;
+    width: 80%;
+    border: 0px;
+    background-color: rgba(52, 52, 52, 0.8);
+    font-size: 0.8em;
+    word-wrap: break-word;
+    word-break: break-all;
+    text-align: left;
+    resize: none; 
+}
+
+.showbox input{
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 4px 50px;
+    color: aliceblue;
+    background-color: #343434;
+    font-size: 0.8em;
+    border: 0px;
+}
+
+.showbox input:hover{
+    background-color: #999999;
+}
