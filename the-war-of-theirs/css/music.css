@@ -1,0 +1,226 @@
+/*song cover*/
+.song-cover div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+    min-width: 900px;
+    margin: 30px 150px;
+}
+
+.song-cover div a{
+    width: 255px;
+    border:3px solid rgba(12, 8, 10, 0.5);
+    border-radius: 5px;
+    
+}
+.song-cover div a:not(:first-child){
+    animation:coverGoLeft 0.2s linear;
+    animation-fill-mode: forwards;
+}
+
+.song-cover div a img{
+    width: 100%;
+}
+
+.song-cover div a:hover+a{
+    /* margin-left: 0px; */
+    animation:coverGoRight 0.2s linear;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes coverGoRight{
+    0%{margin-left: -160px;}
+    100%{margin-left: 0px;}
+}
+
+@keyframes coverGoLeft{
+    0%{margin-left: 0px;}
+    100%{margin-left: -160px;}
+}
+
+/*music interaction*/
+#song-interaction-page{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 5%;
+    width: 90%;
+}
+
+/*song-interacte*/
+#song-interaction{
+    width: 100%;
+}
+
+#song-cover-play{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 5%;
+}
+
+/*song-cover*/
+#song-cover{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: 50px 5%;
+}
+
+#song-cover div:first-child{
+    width: 50%;
+}
+
+#song-cover div:last-child{
+    width: 45%;
+    margin-left: 5%;
+}
+
+#song-cover div:last-child p{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 1.3em;
+}
+
+#song-cover div img{
+    width: 100%;
+}
+
+
+/*song-play*/
+#song-play{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px 1%;
+    width: 28%;
+}
+
+@keyframes myRotate{
+    0%{ -webkit-transform: rotate(0deg);}
+    100%{ -webkit-transform: rotate(20deg);}
+}
+
+#stylus-needle:active{
+    transform-origin: 5.4px 15px;
+    animation: myRotate 0.01s linear;
+    animation-fill-mode: forwards;
+}
+
+#song-play-disc{
+    
+    width: 100%;
+}
+
+#song-play-disc img{
+    width: 100%;
+}
+
+#song-play-stylus{
+    width: 20%;
+}
+
+#song-play-stylus img{
+    width: 30%;
+}
+
+#stylus-basic{
+    display: block;
+    margin-top: -310%;
+    z-index: 100;
+}
+
+#stylus-needle{
+    display: block;
+}
+
+
+/*music-sheet*/
+#interactive-music-sheet{
+    width: 90%;
+    margin: 20px 5%;
+}
+
+#music-sheet{
+    width: 100%;
+    height:150px;
+    overflow: auto;
+}
+
+/*music-sheet-hover*/
+#hover-box-1{
+    position: relative;
+    background-color: rgba(0,0,0,0);
+    height: 150px;
+    margin-top:-150px; 
+    width: 25%;
+    display: block;
+}
+#hover-box-2{
+    position: relative;
+    background-color: rgba(0,0,0,0);
+    height: 150px;
+    margin-top:-150px; 
+    width: 25%;
+    margin-left: 25%;
+    display: block;
+}
+#hover-box-3{
+    position: relative;
+    background-color: rgba(0,0,0,0);
+    height: 150px;
+    margin-top:-150px; 
+    width: 25%;
+    margin-left: 50%;
+    display: block;
+}
+#hover-box-4{
+    position: relative;
+    background-color: rgba(0,0,0,0);
+    height: 150px;
+    margin-top:-150px; 
+    width: 25%;
+    margin-left: 75%;
+    display: block;
+}
+
+.music-to-photo{
+    padding: 20px 10%;
+    margin-top: -890px;
+    width: 53.7%;
+    height: 700px;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+}
+
+.music-to-photo{
+    display: none;
+}
+#hover-box-1:hover+#music-to-photo-1{
+    display: block;
+}
+#hover-box-2:hover+#music-to-photo-2{
+    display: block;
+}
+#hover-box-3:hover+#music-to-photo-3{
+    display: block;
+}
+#hover-box-4:hover+#music-to-photo-4{
+    display: block;
+}
+
+/*more-detail*/
+#more-detail{
+    position: absolute;
+    margin-left: 62%;
+    margin-top: -130px;
+    
+}
+
+#more-detail *{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 1.3em;
+    text-decoration: underline;
+}
