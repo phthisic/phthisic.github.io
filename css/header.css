@@ -1,0 +1,90 @@
+header {
+    position: fixed;
+    height: 100%;
+    width: 310px;
+    padding: 40px 0px;
+    background-color: rgba(52, 52, 52, 0.8);
+}
+
+header * {
+    color: #dddddd;
+}
+
+header>div:first-child:hover{
+    color: #ffffff;
+}
+
+/*title*/
+
+header>div:first-child {
+    padding: 0px 40px;
+}
+
+header>div:first-child * {
+    font-size: 32px;
+    font-family: 'Lobster', cursive;
+}
+
+/*navigation*/
+header>nav {
+    display: block;
+    width: 100%;
+}
+
+header>nav * {
+    font-size: 20px;
+}
+
+nav ul li {
+    padding: 12px 0px;
+}
+
+nav ul li:hover {
+    transition: background-color 0.1s linear;
+    background-color: rgba(230, 230, 230, 0.1);
+    cursor: pointer;
+}
+
+nav ul li:hover * {
+    /* transition: color 0.3s linear; */
+    color: #ffffff;
+}
+
+nav ul li a {
+    width: 100%;
+    margin: 20px 20px 0px 40px;
+}
+
+/*footer*/
+.footer{
+    position: inherit;
+    bottom: 1%;
+    padding: 0px 40px;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: row;
+}
+.footer-contact a{
+    font-size: 16px;
+}
+
+.footer-contact a:not(:last-child)::after{
+    content:"\2666";
+    margin: 0px 5px;
+}
+
+.update-time{
+    font-size: 16px;
+    margin: 10px 0px;
+}
+
+.activeLink{
+    background-color: rgba(230, 230, 230, 0.2);
+    color: #ffffff;
+}
+
+.activeLink *{
+    color: #ffffff;
+}
