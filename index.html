@@ -8,519 +8,209 @@
     <script src="js/main.js"></script>
     <script src="js/contact.js"></script>
     <script src="js/work.js"></script>
-    <link
-      href="https://fonts.googleapis.com/css?family=Arapey|Lobster|Oleo+Script|Oswald&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/info.css" />
     <link rel="stylesheet" href="css/work.css" />
     <link rel="stylesheet" href="css/contact.css" />
     <link rel="stylesheet" href="css/reference.css" />
-    <title>Portfolio</title>
+    <title>李卓然 portfolio</title>
   </head>
-
-  <!-- <body>
+  <body>
     <header>
-        <div>
-            <p>Zhuoran Li</p>
+      <div id="navi-home">
+        <a href="#"><p>Zhuoran Li</p></a>
+      </div>
+      <nav class="navigation">
+        <ul>
+          <li id="navi-info">
+            <a href="#">关于我</a>
+          </li>
+          <li id="navi-work">
+            <a href="#">工作项目</a>
+          </li>
+          <li id="navi-school">
+            <a href="#">学校项目</a>
+          </li>
+          <li id="navi-contact">
+            <a href="#">联系</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="footer">
+        <div class="footer-contact">
+          <!-- <a href="https://www.facebook.com/ZhuoranLi1996" target="_blank">Facebook</a> -->
+          <a href="Mailto:lzr199606@163.com">Email</a>
+          <a
+            href="https://www.youtube.com/channel/UCVWUHytVY799ws_LhpRYHGw?view_as=subscriber"
+            target="_blank"
+            >Youtube</a
+          >
         </div>
-        <nav class="navigation">
-            <ul>
-                <li id="navi-home">
-                    <a href="#">主页</a>
-                </li>
-                <li id="navi-info">
-                    <a href="#">关于我</a>
-                </li>
-                <li id="navi-work">
-                    <a href="#">项目</a>
-                </li>
-                <li id="navi-contact">
-                    <a href="#">联系</a>
-                </li>
-                <li id="navi-refer">
-                    <a href="#">参考</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="footer">
-            <div class="footer-contact">
-                <a href="https://www.facebook.com/ZhuoranLi1996" target="_blank">Facebook</a>
-                <a href="Mailto:lzr1996@live.cn">Email</a>
-                <a href="https://www.youtube.com/channel/UCVWUHytVY799ws_LhpRYHGw?view_as=subscriber"
-                    target="_blank">Youtube</a>
-            </div>
-            <div class="update-time">
-                <p>Last updated: &nbsp;30/11/2020</p>
-            </div>
+        <div class="update-time">
+          <p>Last updated: &nbsp;2023/04/12</p>
         </div>
+      </div>
     </header>
     <main>
-        <section class="home">
-            <div>
-                This photo is taken in Alishan, Taiwan in August 2014. It was a foggy morning and the train had been
-                stopped a month ago. <br>
-                When the train did not work, the rail seemed more beautiful with the fog.<br>
-                It always inspires me.
+      <section class="home">
+        <div>
+          Taken in Ali Mountain in August 2014. <br /><br />
+          A foggy morning and the train had been stopped for a month. <br />
+          It always inspires me.
+        </div>
+      </section>
+
+      <section class="info">
+        <div class="info-content">
+          <div class="photo">
+            <div class="photo-img">
+              <img src="image/contact.jpg" alt="My photo" />
             </div>
-        </section>
-
-        <section class="info">
-            <div class="info-text">
-                <div class="intro-myself">
-                    <h2>About Me</h2>
-                    <div class="intro-img"><img src="image/Charlie.jpg" alt="My photo"></div>
-                    <div class="intro-text">
-                        Hi, I’m Zhuoran Li. I am from China and have been studying both computer science and interaction
-                        design for reaching my ambition, which is becoming a game designer.<br><br>
-                        I’m a student of Interaction Design in the University of Queensland. Before the life in
-                        Australia, I was a student majoring in Computer Science and Technology of Shandong University.
-                        This website contains my works in recent years and the website itself is also my own work.
-                        If you have any question or advise, please do not hesitate to contact me.
-                        <a id="intro-contact" href="">Contact me</a>
-                    </div>
-                </div>
-                <div class="intro-detail">
-                    <div class="technology-ability">
-                        <p>Skill for Programming</p>
-                        <div>
-                            <div>
-                                <p>HTML/ CSS</p>
-                                <hr class="score">
-                            </div>
-                            <div>
-                                <p>JavaScript</p>
-                                <hr class="score">
-                            </div>
-                            <div>
-                                <p>PHP</p>
-                                <hr class="score">
-                            </div>
-                            <div>
-                                <p>Unity/ C#</p>
-                                <hr class="score">
-                            </div>
-                            <div>
-                                <p>C/C++</p>
-                                <hr class="score">
-                            </div>
-                        </div>
-                    </div>
-                    <hr class="seperate-info">
-                    <div class="design-ability">
-                        <p>Skill for Designing</p>
-                        <div>
-                            <div>
-                                <p>UX/ UI Design</p>
-                                <hr class="score">
-                            </div>
-                            <div>
-                                <p>Ps/ Ai/ Pr/ Id</p>
-                                <hr class="score">
-                            </div>
-                            <div>
-                                <p>XD/ Axure</p>
-                                <hr class="score">
-                            </div>
-                        </div>
-                    </div>
-                    <hr class="seperate-info">
-                    <div class="education">
-                        <p>Education</p>
-                        <div>
-                            <div>
-                                <p>The University of Queensland</p>
-                                <p>Interaction design</p>
-                                <p>2019 till now</p>
-                            </div>
-                            <div>
-                                <p>Shandong University</p>
-                                <p>Computer science and technology</p>
-                                <p>2014 - 2018</p>
-                            </div>
-                        </div>
-                    </div>
-                    <hr class="seperate-info">
-                    <div class="hobby">
-                        <p>Hobby</p>
-                        <div>
-                            <div>
-                                <p>Video Game</p>
-                                <hr class="score">
-                            </div>
-                            <div>
-                                <p>Animation</p>
-                                <hr class="score">
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+            <div class="photo-description">
+              <div>李卓然 · 交互设计师</div>
+              <div>
+                <div>电话&nbsp; &nbsp; &nbsp; 17862707316</div>
+                <div>邮箱&nbsp; &nbsp; &nbsp; lzr199606@163.com</div>
+                <div>微信&nbsp; &nbsp; &nbsp; phthisic</div>
+              </div>
             </div>
-        </section>
-
-        <section class="work">
-            <div>
-                <div class="a">
-                    <div class="work7180">
-                        <div class="mask">
-                            <div class="more-Info-for-work" id="work-7180">
-                                Website - The War of Theirs
-                            </div>
-                        </div>
-                    </div>
-                    <div class="work7230">
-                        <div class="mask">
-                            <div class="more-Info-for-work" id="work-7230">
-                                Game - Hatching Monsters
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="b">
-                    <div class="work7140">
-                        <div class="mask">
-                            <div class="more-Info-for-work" id="work-7140">
-                                Website - Marvin's Travel
-                            </div>
-                        </div>
-                    </div>
-                    <div class="work7110">
-                        <div class="mask">
-                            <div class="more-Info-for-work" id="work-7110">
-                                Installation - Symphony
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="work-navi">
-                    <li id="introduction"><a href="#introduction-7180">Introduction</a></li>
-                    <li id="design-exploration"><a href="#design-exploration-7180">Design</a></li>
-                </div>
-                <div class="work-detail" id="work-7180-detail">
-                    <div class="close">x</div>
-
-                    <div id="introduction-7180">
-                        <h3>The War of Theirs</h3>
-                        <p>This project is a website combined history and music to give the target audiences an
-                            experience of WW1. By using the data from Queensland database, we are able to reproduce
-                            the
-                            music and link it to the historical photos. As the main focus is the experience of the
-                            life
-                            and art during the WW1period, the name of the website is “The war of theirs.” <br> <br>
-                            I am the programmer in the team and take all the responsibility of the code. However, I
-                            also
-                            acted as a designer and actively giving my idea about the website. The website is mainly
-                            based on PHP, HTML, CSS and JavaScript. HTML together with CSS forms the appearance and
-                            data
-                            is read and presented by PHP and JavaScript. <br> <br>
-                            Two database have been used: <br>
-                            <a href="https://www.data.qld.gov.au/dataset/state-library-of-queensland-music-queensland-world-war-1"
-                                target="_blank">State
-                                Library of Queensland - Music Queensland - World War 1</a><br>
-                            <a href="https://www.data.qld.gov.au/dataset/slq-the-queenslander-newspaper-photographs-1914-1918"
-                                target="_blank">State
-                                Library of Queensland - The Queenslander newspaper photographs 1914-1918</a>
-                        </p>
-
-                        <p>
-                            <br>
-                        </p>
-                    </div>
-                    <div id="design-exploration-7180">
-                        <h3>Design</h3>
-                        <p>The main page contains two parts including the title and a brief introduction of WW1. This is
-                            the begining of this website. From here, users can choose to listen to the music or view the
-                            photos.<br> <br>
-                            <img src="image/7180work2.png" title="home page of the website"
-                                alt="home page of the website">
-                            <img src="image/7180work3.png" title="home page of the website"
-                                alt="home page of the website">
-                            <p>The music page starts with the music cover from the database. Users are allowed to select
-                                one of them. While the mouse are hovering on the covers, the cover would move just like
-                                in the real world when people picking up albums in a store.<br> <br></p>
-                            <img src="image/7180work4.png" title="home page of the website"
-                                alt="music page of the website">
-                            <p>After selecting the cover, the website would scroll down to the music disc. Here, users
-                                can see the information, listen to the music and interact with the music sheet.<br> <br>
-                            </p>
-                            <img src="image/7180work5.png" title="home page of the website"
-                                alt="music page of the website">
-                            <p>The disc begin to scroll when playing the music.<br> <br>
-                            </p>
-                            <img src="image/7180work6.png" title="home page of the website"
-                                alt="music page of the website">
-                            <p>Hover on the sheet and view different photos. Here, users can click on the sheet and
-                                jump to the information page of the photos.<br> <br>
-                            </p>
-                            <img src="image/7180work7.png" title="home page of the website"
-                                alt="music page of the website">
-                            <p>This is the information page of the photos after the jumping. Users can see the big photo
-                                and if they want to view more pictures, they can click on the close button.<br> <br></p>
-                            <img src="image/7180work8.png" title="home page of the website"
-                                alt="music page of the website">
-                            <p>The photo page contains pictures from the database, and users can select which kind of
-                                photos they want to see. Some options have been given but still, users can input their
-                                own keywords.<br> <br></p>
-                            <img src="image/7180work9.png" title="home page of the website"
-                                alt="music page of the website">
-                            <p>
-                                <br>
-                            </p>
-                    </div>
-                </div>
-
-
-                <div class="work-detail" id="work-7110-detail">
-                    <div class="close">x</div>
-                    <h3>Symphony</h3>
-                    <p>The designed installation was named “Symphony,” which was an art installation
-                        prompting people to trigger different parts of the music and then remix together.
-                        When one user interacts with the installation, one type of music would be activated,
-                        as more and more people getting involved in the installation, the played music would
-                        be more pleasant.</p>
-
-                    <img src="image/7110work1.jpg" alt="Symphony" title="Symphony">
-                    <p>The installation of “Symphony” is planned to install by the UQ Lake in a place where
-                        people have relaxing willing. And the purpose of this installation is to add some
-                        music elements into a place, making people feel comfortable and enjoying the
-                        environment with smooth melodies and the embrace of nature. The purpose of the
-                        project is to create a collective experience and enchanting affection for the people
-                        feel the pressure. Additionally, the way of engaging more people to interact with that
-                        is to encourage people who don’t know each other to participate with our system
-                        and evoke the passion of making new friends. The technology in this project includes
-                        the pressure-sensitive sensor to detect the users’ weight and then trigger the play
-                        of music. And the central computer will certify how many people interact with the
-                        installation so play music with different complexity.</p>
-                    <p>We are ambitious that our installation would be like by the people around the
-                        campus and the visitors. We have walked through the path of the procedure of
-                        collecting ideas and insights, analysing the needs from the users, videoing and
-                        holding two exhibitions around the campus.</p>
-                </div>
-                <div class="work-detail" id="work-7140-detail">
-                    <div class="close">x</div>
-                    <h3>Marvin's travel</h3>
-                    <p>Based on the science fiction “The Hitchhiker’s Guide to the Galaxy” this
-                        website is designed to educate the fundamental knowledge of universe and
-                        space physics, targeting children aged from seven to fifteen. This design report
-                        includes the background of this website and the process of design.<br> <br>
-                        The target audience is children aged between 7 and 15, who have developed
-                        the ability of abstract thinking and proper to learn simple physics knowledge.
-                        Thus, it is suitable for them to start learning the universe and space physics.
-                        The selected science fiction, published in 1979, is unlikely to be read by the
-                        target audience before and the story happened in the space. Hence, this book
-                        can serve not only as an enlightening of science fiction for children but also as
-                        exciting teaching material for universe and space physics.
-                    </p>
-                    <img src="image/7140work2.png" title="home page" alt="home page">
-                    <p>
-
-                        By using open card sorting, which involved six participants, the noun and verbs
-                        cards were sorted separately. After the analysis of the process of this activity,
-                        the organization system has been modified based on the feedback given by the
-                        participants.
-                    </p>
-                    <img src="image/7140work3.png" title="Ancient Imagine page" alt="Ancient Imagine page">
-                    <p>
-
-                        The group discussion went through two websites including Alibaba and Amazon.
-                        Having compared their navigation system, the clearance and necessity of each
-                        navigation system and the importance of breadcrumb are highlighted. Moreover,
-                        by creating the site map, the navigation and content can be overviewed. Using
-                        Lara, one of the personas created, and storyboard to illustrate how the user
-                        navigate in this website.
-                    </p>
-                    <img src="image/7140work4.png" title="Theories Evolution page" alt="Theories Evolution page">
-                    <p>
-
-                        The other group discussion focused on the website of Amazon. The consistent
-                        elements and emphasis of the visual organization have been highlighted.
-                        Considering the discussion, the visual organization of this website has been
-                        modified, and the wireframes have been produced (the wireframes include
-                        those of the first visit page, explore page, guidebook page, search page and
-                        customize color page).
-                    </p>
-                    <img src="image/7140work5.png" title="Exploration page" alt="Exploration page">
-                    <p>
-
-                        The paper prototype test, which based on the wireframes, involved three
-                        participants. After the analysis of the process and feedback, some function of
-                        buttons and prompt have been modified. Besides, during the test, the tutor
-                        pointed out that technically, there will not be a database to store the username
-                        and password. Therefore, all the functions linked to the users' account need to
-                        be redesigned.
-                    </p>
-                    <p>
-
-                        The aesthetics test is conducting to determaine whether the color, font,
-                        image used and button used is suitable for the content and user experience.
-                        The prototype changed in this step as the feedback from participants showed
-                        that the initial prototype was not suitable.<br> <br>
-                        With the new prototype, the aesthetics test was reconducted and based on
-                        the feedback, a hi-fi prototype was conducted. The final change isbased on
-                        the feedback of hi-fi prototype.</p>
-                    <p> <br></p>
-                </div>
-                <div class="work-detail" id="work-7230-detail">
-                    <div class="close">x</div>
-                    <h3>Hatching monsters</h3>
-                    <p><strong>“A simulation game of hatching monsters which the character can getting hungry,
-                            interacting by
-                            using a physical scene.”</strong> </p>
-                    <p>
-                        This prototype is a game of simulating the hatching and players would be hungry in the game. The
-                        idea is generated by the website “Game Generator” (figure 1.1) but the animals has changed to
-                        monsters and getting bored has changed to losing the physical and mental strength.
-                    </p>
-                    <img src="image/7230work2.png" title="“Game Generator” (https://orteil.dashnet.org/gamegen)"
-                        alt="“Game Generator” (https://orteil.dashnet.org/gamegen)">
-                    <p>The game mainly contains four parts, weighing, hatching, store and player status. The weighing
-                        system is where players weigh the eggs and decided where to hatch the eggs. The hatching system
-                        is where the players place the eggs and waiting for the monster to be born. The store is where
-                        the player sells the monster and buy more eggs or foods. Player would lose physical strength
-                        when hatching the eggs so they need to eat to stay alive. They can choose to eat cheap monster
-                        meat to increase some physical strength but would lose mental strength. Or, they can choose to
-                        eat expensive normal food to get both physical and mental strength. The game ends when either
-                        the physical or the mental strength become zero.<br> <br>
-                        To interact with the game, a pressure sensor decorated as a weighing scale and a physical
-                        platform with controllers would be used. Players use the weighing scale to weigh the eggs and
-                        the weight would display on the screen. Players can move the controller on the platform, which
-                        in the game is the action of moving in the game scene or moving the little ghost assistant. The
-                        platform is also the simulation of the store where users can choose to buy products.
-                    </p>
-                    <img src="image/7230work1.png" title="Game scene" alt="Game scene">
-                    <p>The prototype is a unity scene which contains the system of buying, weighing, hatching and
-                        collection displaying. The buying has been simplified to spend money and gain energy. Images
-                        from the Internet are used to build up the scene and some coding are used to provide the basic
-                        interaction.<br> <br>
-                        The prototype also linked to the physical controller by using Arduino. Two potentiometers are
-                        used to move to different part of the scene and move the ghost. A photocell is used to feed the
-                        players. A gravity sensor FlexiForce is used to weighing the egg. All the physical controller
-                        has been put into a box which stands for the laboratory. And some text has been written on the
-                        box to indicate the players.
-                    </p>
-                    <img src="image/7230work3.png" title="physical game scene" alt="physical game scene">
-                    <p>The game scene can be divided into seven parts.<br> <br>
-                        The first one is buying eggs. Players are able to buy an egg from the provider and the egg is
-                        randomly provided. Once they buy the egg, the egg would be placed on the shelf from top to
-                        bottom.
-                    </p>
-                    <img src="image/7230work4.jpg" title="buying eggs" alt="buying eggs">
-                    <p>The second one is select from the shelf. A little ghost would be here to help players select the
-                        egg. Players are able to control the ghost, moving it up and down. By short press the main
-                        control button, the ghost would take the egg from the shelf or put it back. The egg’s position
-                        is decided by the ghost position. If players long press the main control button, the ghost would
-                        put the egg on the weighing scale.</p>
-                    <img src="image/7230work5.jpg" title="select egg to weigh" alt="select egg to weigh">
-                    <p>The third one is weighing scale where players can weigh the eggs. A blackboard at back would
-                        prompt players which part of the monster is carrying by the egg.</p>
-                    <img src="image/7230work6.jpg" title="weighing eggs" alt="weighing eggs">
-                    <p>If players hold the stick at the right position for long enough, the number of the weight would
-                        be displayed on the weighing scale.</p>
-                    <img src="image/7230work7.jpg" title="weighing stick" alt="weighing stick" style="width: 200px;">
-                    <img src="image/7230work8.jpg" title="weight number on weighing scale"
-                        alt="weight number on weighing scale" style="width: 350px;">
-                    <p>Once players get the number and decided which part is the monster, they can come to the fourth
-                        part-selecting a place to hatch. The incubator has point out which part should be putted at
-                        which position. The ghost would, again, help players to put the egg at right position.</p>
-                    <img src="image/7230work9.jpg" title="select position in incubator"
-                        alt="select position in incubator">
-                    <p>In the fifth scene, after players putting all the eggs in the incubator, they can begin to hatch
-                        the monster. When long press the main control button and begin to hatching, all the eggs would
-                        go into the tube and players are able to begin a new round of weighing. After hatching, the
-                        monster would show up at the monster box. If there are not enough eggs on the shelf, the monster
-                        can still be hatched but the success possibility would be reduced. If the hatching is failed,
-                        players can only get ash at the end. </p>
-                    <img src="image/7230work10.jpg" title="hatching system" alt="hatching system">
-                    <img src="image/7230work11.jpg" title="A monster has been hatched" alt="A monster has been hatched"
-                        style="width: 600px;">
-                    <img src="image/7230work14.jpg" title="failure hatching with ash" alt="failure hatching with ash"
-                        style="width: 600px;">
-                    <p>However, because of the time limitation, is the evaluation, I set the success rate to 100% no
-                        matter no many eggs have been used to hatch.</p>
-                    <p>
-                        The sixth part is the display part, where players can choose to display their monsters after
-                        hatching. However, the function hasn’t been fully built as it is not crucial in this prototype
-                        to be tested. </p>
-                    <img src="image/7230work12.jpg" title="display the monsters" alt="display the monsters">
-                    <p>
-                        Players are expected to first put the eggs on the weighing scale and then press the button to
-                        weigh the egg. After knowing the weight, they need to check which position is the best place to
-                        put the egg and when the four position all have their eggs, players can begin to hatching.
-                    </p>
-                    <p>
-                        The last part is the player status data. The data includes two parts, money and energy. Every
-                        time players buy an egg, it would cost money, and hatching monsters can give the money back. If
-                        a monster is been successfully hatched, players can get more money than the eggs cost. However,
-                        there is a chance that players could not success, so that is when they can only get a little
-                        money. </p>
-                    <img src="image/7230work13.jpg" title="player status data" alt="player status data">
-                    <p>
-                        The action of weighing and hatching can cost energy. When the energy become 0, the game ends.
-                        But the money can be spent to buy energy. This is regarded as the simulation of selling monsters
-                        and buying food.
-                    </p>
-                </div>
+          </div>
+          <div class="text-content">
+            <div class="intro-overall">
+              <div class="intro-title">关于我</div>
+              <div class="intro-text">
+                你好，我是李卓然，一名从业2年的交互设计师。我曾主导及参与了游戏平台、游戏创作中心、项目管理、效率提升、游戏、游戏编辑器等多款产品的用户体验设计及界面设计。
+              </div>
+              <div class="intro-text">
+                我在设计中坚持使用人性化的设计思维，保证产品贴近用户真实需求。我相信最好的设计应该符合用户直觉的，预测用户行为是一名优秀交互设计师必备的superpower。
+              </div>
+              <div class="intro-text">
+                我喜欢与团队紧密合作。与其他设计师之间的良好合作，是保证产品内部统一的强大保障；而与上下游职能间的良好沟通，则是使用户需求与最终落地效果相符的基础。
+              </div>
             </div>
-        </section>
-
-        <section class="contact">
-            <div>
-                <div class="contact-method" id="contact">
-                    <div>Contact<br>Information</div>
-                    <div class="contact-method-span test" id="contact-span ">
-                        <h3>Mobile</h3>
-                        <p>(+61) 0415367316</p>
-                        <p>(+86) 17862707316</p><br>
-                        <h3>Email</h3>
-                        <p>lzr1996@live.cn</p><br>
-                        <h3>Address</h3>
-                        <p>79 Albert street, Brisbane, Queensland</p>
-                    </div>
-                </div>
-
-
-                <div class="contact-method" id="socialmedia">
-                    <div>Social<br>media</div>
-                    <div class="contact-method-span" id="socialmedia-span">
-                        <div><a href="https://www.facebook.com/ZhuoranLi1996" target="_blank">
-                                <h3>Facebook</h3> <img src="image/facebook.png" alt="facebook icon">
-                            </a></div><br><br>
-                        <div><a href="https://www.youtube.com/channel/UCVWUHytVY799ws_LhpRYHGw?view_as=subscriber"
-                                target="_blank">
-                                <h3>Youtube</h3><img src="image/youtube.png" alt="youtube icon">
-                            </a>
-                        </div><br><br>
-                        <div><a href="http://1258529585.lofter.com" target="_blank">
-                                <h3>Lofter</h3><img src="image/lofter.png" alt="lofter icon">
-                            </a>
-                        </div><br><br>
-                    </div>
-                </div>
-
-
-                <div class="contact-method" id="decoration-img"></div>
-
-                <div class="contact-method" id="feedback">
-                    <div>Feedback</div>
-                    <div class="contact-method-span" id="feedback-span">
-                        <textarea id="feedback-content" type="text" value="" placeholder="Please write feedback here.">
-                        </textarea>
-                        <br>
-
-                        <a id="feedback-send" href="Mailto:lzr1996@live.cn?Body="><input id="feedback-submit"
-                                type="submit" value="Submit"></a>
-                    </div>
-                </div>
-
-
+            <div class="intro-skill">
+              <div class="intro-title">技能</div>
+              <div class="intro-text">
+                · 熟练使用Figma、Adobe
+                Xd、Axure、Protopie等原型工具；熟练使用Adobe全家桶内的Ai、Ps、Pr、Ae。
+              </div>
+              <div class="intro-text">
+                · 熟悉material design、fluent
+                design等常用系统设计规范，熟悉广泛使用的React、Vue等框架的设计规范。
+              </div>
+              <div class="intro-text">
+                ·
+                熟悉编程语言，有使用原生及框架开发网页、使用框架开发webapp、使用Unity开发游戏的经验。
+              </div>
+              <div class="intro-text">· 熟练使用AI相关产品辅助设计工作。</div>
             </div>
-        </section>
+            <div class="intro-experience">
+              <div class="intro-title">经历</div>
+              <div class="experience">
+                <div class="hr"></div>
+                <div class="experience-title">
+                  <div></div>
+                  <div>
+                    <svg
+                      width="28"
+                      height="28"
+                      viewBox="0 0 28 28"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M23.3334 6.99992H18.6667V4.66659C18.6667 3.37742 17.6225 2.33325 16.3334 2.33325H11.6667C10.3775 2.33325 9.33337 3.37742 9.33337 4.66659V6.99992H4.66671C3.37754 6.99992 2.34504 8.04409 2.34504 9.33325L2.33337 22.1666C2.33337 23.4558 3.37754 24.4999 4.66671 24.4999H23.3334C24.6225 24.4999 25.6667 23.4558 25.6667 22.1666V9.33325C25.6667 8.04409 24.6225 6.99992 23.3334 6.99992ZM16.3334 6.99992H11.6667V4.66659H16.3334V6.99992Z"
+                        fill="#B3DCD5"
+                      />
+                    </svg>
+                  </div>
+                  <div>网易</div>
+                  <div>2020年4月 - 2023年4月，上海</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <section class="reference">
+      <section class="work">1</section>
+
+      <section class="school">2</section>
+
+      <section class="contact">
+        <div>
+          <div class="contact-method" id="contact">
+            <div>Contact<br />Information</div>
+            <div class="contact-method-span test" id="contact-span ">
+              <h3>Mobile</h3>
+              <p>(+61) 0415367316</p>
+              <p>(+86) 17862707316</p>
+              <br />
+              <h3>Email</h3>
+              <p>lzr1996@live.cn</p>
+              <br />
+              <h3>Address</h3>
+              <p>79 Albert street, Brisbane, Queensland</p>
+            </div>
+          </div>
+
+          <div class="contact-method" id="socialmedia">
+            <div>Social<br />media</div>
+            <div class="contact-method-span" id="socialmedia-span">
+              <div>
+                <a
+                  href="https://www.facebook.com/ZhuoranLi1996"
+                  target="_blank"
+                >
+                  <h3>Facebook</h3>
+                  <img src="image/facebook.png" alt="facebook icon" />
+                </a>
+              </div>
+              <br /><br />
+              <div>
+                <a
+                  href="https://www.youtube.com/channel/UCVWUHytVY799ws_LhpRYHGw?view_as=subscriber"
+                  target="_blank"
+                >
+                  <h3>Youtube</h3>
+                  <img src="image/youtube.png" alt="youtube icon" />
+                </a>
+              </div>
+              <br /><br />
+              <div>
+                <a href="http://1258529585.lofter.com" target="_blank">
+                  <h3>Lofter</h3>
+                  <img src="image/lofter.png" alt="lofter icon" />
+                </a>
+              </div>
+              <br /><br />
+            </div>
+          </div>
+
+          <div class="contact-method" id="decoration-img"></div>
+
+          <div class="contact-method" id="feedback">
+            <div>Feedback</div>
+            <div class="contact-method-span" id="feedback-span">
+              <textarea
+                id="feedback-content"
+                type="text"
+                value=""
+                placeholder="Please write feedback here."
+              >
+              </textarea>
+              <br />
+
+              <a id="feedback-send" href="Mailto:lzr1996@live.cn?Body="
+                ><input id="feedback-submit" type="submit" value="Submit"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="reference">
             <h2>Reference</h2>
             <div>
                 <p>Background image in contact page: https://www.pexels.com/photo/mountains-with-midst-1743392/</p>
@@ -532,18 +222,7 @@
                 <p>Youtube icon: https://www.youtube.com/</p>
                 <p>Lofter icon: https://www.lofter.com/</p>
             </div>
-        </section>
+        </section> -->
     </main>
-</body> -->
-
-  <body>
-    <div class="d1">Race the Ninja Hideaway course in the Mario Kart Tour and Mario Kart 8 Deluxe games today!</div>
-    <div class="d2">Official website2</div>
-    <div class="d3">Race the Ninja Hideaway course in the Mario Kart Tour and Mario Kart 8 Deluxe games today!</div>
-    <div class="d4">Official website4</div>
-    <div class="d5">Race the Ninja Hideaway course in the Mario Kart Tour and Mario Kart 8 Deluxe games today!</div>
-    <div class="d6">Official website6</div>
-    <div class="d7">Race the Ninja Hideaway course in the Mario Kart Tour and Mario Kart 8 Deluxe games today!</div>
-    <div class="d8">Official website8</div>
   </body>
 </html>
